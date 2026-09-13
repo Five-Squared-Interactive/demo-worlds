@@ -1,0 +1,365 @@
+{
+  "invocation": {
+    "tool": "veml-ingest",
+    "version": "0.1.0",
+    "input": "living-room.blend",
+    "options": {
+      "title": "Living Room",
+      "ground": false,
+      "lighting": "default",
+      "noLookdevSky": false,
+      "lod": false,
+      "links": [],
+      "deploy": "C:/Users/Dylan/AppData/Local/Temp/claude/C--Users-Dylan-FiveSquared-Repos-v4-monorepo/7472be1b-8ec3-4f50-b674-094deeb84d55/scratchpad/demo-worlds/living-room"
+    }
+  },
+  "entrySource": {
+    "kind": "spawn-camera",
+    "camera": "VEMLEntry"
+  },
+  "warnings": [],
+  "blend": {
+    "realizedObjects": [
+      "Handle_Front",
+      "Handle_Back",
+      "soda_can.004",
+      "tray",
+      "Cig",
+      "Handle_Front.001",
+      "Handle_Back.001",
+      "BézierCurve.001",
+      "Cube.023",
+      "Cube.026",
+      "Cube.030",
+      "Cube.034",
+      "Cube.035",
+      "Cube.036",
+      "Cube.037",
+      "Cylinder.051",
+      "Cylinder.053",
+      "Cylinder.054",
+      "Cylinder.056",
+      "BézierCurve.003",
+      "Cube.013",
+      "Cube.024",
+      "Cube.025",
+      "Cube.027",
+      "Cube.028",
+      "Cylinder.026",
+      "Cylinder.030",
+      "Cylinder.048",
+      "Cube.031",
+      "BézierCurve.004",
+      "Cube.032",
+      "Cylinder.057",
+      "Cube.033",
+      "Cylinder.060",
+      "Cylinder.062",
+      "BézierCurve.005",
+      "Cylinder.064",
+      "Cube.039",
+      "Cube.042",
+      "Cylinder.065",
+      "Cube.043",
+      "Cube.044",
+      "Cube.045",
+      "Cube.046",
+      "Cube.047",
+      "Cube.048",
+      "Cylinder.068",
+      "Cylinder.069",
+      "Cylinder.070",
+      "Cylinder.071",
+      "Handle_Front.002",
+      "Handle_Back.002",
+      "Cylinder.001",
+      "Cube.040",
+      "Cube.003",
+      "Cube",
+      "Cube.004"
+    ],
+    "failedObjects": [],
+    "excludedObjects": [
+      "barricade_s_b",
+      "barricade_s_2",
+      "barricade_s_1"
+    ],
+    "bakedMaterials": [
+      {
+        "name": "BACKSPLASH",
+        "passes": [
+          "diffuse",
+          "roughness",
+          "normal"
+        ],
+        "linked": true,
+        "users": [
+          "Cube.022"
+        ]
+      },
+      {
+        "name": "Cigs1",
+        "passes": [
+          "diffuse"
+        ],
+        "linked": true,
+        "users": [
+          "empty_cigs_2",
+          "Cig"
+        ]
+      },
+      {
+        "name": "Marble",
+        "passes": [
+          "diffuse"
+        ],
+        "linked": true,
+        "users": [
+          "Window",
+          "Window.001",
+          "Window.002"
+        ]
+      },
+      {
+        "name": "Material.001",
+        "passes": [
+          "diffuse",
+          "roughness",
+          "normal"
+        ],
+        "linked": true,
+        "users": [
+          "Cube.052"
+        ]
+      },
+      {
+        "name": "Material.046",
+        "passes": [
+          "diffuse",
+          "roughness",
+          "normal"
+        ],
+        "linked": true,
+        "users": [
+          "Cube.002"
+        ]
+      },
+      {
+        "name": "PAINT-IRON_ORE",
+        "passes": [
+          "diffuse",
+          "roughness",
+          "normal"
+        ],
+        "linked": true,
+        "users": [
+          "Cube.023",
+          "Cube.026",
+          "Cube.038",
+          "Cube.044",
+          "Cube.045",
+          "Cube.046",
+          "Cube.047",
+          "Cube.048",
+          "Cube.049",
+          "Cube.050"
+        ]
+      },
+      {
+        "name": "Plastic",
+        "passes": [
+          "diffuse"
+        ],
+        "linked": true,
+        "users": [
+          "Window",
+          "Window.001",
+          "Window.002"
+        ]
+      },
+      {
+        "name": "RED_TILES_COUNTER",
+        "passes": [
+          "diffuse",
+          "normal"
+        ],
+        "linked": true,
+        "users": [
+          "Cube.049",
+          "Cube.050"
+        ]
+      },
+      {
+        "name": "tiled floors",
+        "passes": [
+          "diffuse",
+          "roughness",
+          "normal"
+        ],
+        "linked": true,
+        "users": [
+          "Cube.003"
+        ]
+      },
+      {
+        "name": "Wood",
+        "passes": [
+          "diffuse"
+        ],
+        "linked": true,
+        "users": [
+          "Window",
+          "Window.001",
+          "Window.002"
+        ]
+      }
+    ],
+    "bakeFailures": [],
+    "skippedMaterials": [
+      {
+        "name": "LEATHER - heather",
+        "reason": "no bakeable users (excluded or faceless)"
+      },
+      {
+        "name": "Material.050",
+        "reason": "no bakeable users (excluded or faceless)"
+      },
+      {
+        "name": "Material.051",
+        "reason": "no bakeable users (excluded or faceless)"
+      },
+      {
+        "name": "Material.052",
+        "reason": "no bakeable users (excluded or faceless)"
+      },
+      {
+        "name": "POST1A",
+        "reason": "no bakeable users (excluded or faceless)"
+      }
+    ],
+    "deadReferences": [
+      "AO_.png",
+      "ao_IRON_ORE_.png",
+      "Walnut3.tga",
+      "Lakerem.jpg",
+      "Refmap.gif",
+      "Map #21",
+      "LongHorn.jpg",
+      "Sketchbook_1.png"
+    ],
+    "recoveredReferences": [
+      {
+        "from": "DRYWALL_AO.png",
+        "to": "DRYWALL_AO.png"
+      },
+      {
+        "from": "DRYWALL_AO.png",
+        "to": "DRYWALL_AO.png"
+      }
+    ],
+    "magentaMaterials": [
+      "Cover",
+      "cupboards",
+      "drywall - creme",
+      "Pages",
+      "Trim"
+    ],
+    "glassMaterials": [
+      "Glass",
+      "Material.003",
+      "Material.060",
+      "mirror",
+      "plastic"
+    ],
+    "deadDrivenAdjusted": [
+      {
+        "name": "8 - Default.001",
+        "inputs": [
+          "Metallic"
+        ]
+      },
+      {
+        "name": "Metal_Chrome.001",
+        "inputs": [
+          "Metallic"
+        ]
+      },
+      {
+        "name": "Reflection_RefMap.001",
+        "inputs": [
+          "Metallic"
+        ]
+      },
+      {
+        "name": "Wood_Walnut.001",
+        "inputs": [
+          "Normal"
+        ]
+      }
+    ],
+    "warnings": [],
+    "lightCount": 11,
+    "camera": {
+      "feet": {
+        "x": 3,
+        "y": 0.10000002384185791,
+        "z": 5
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0.3469356942678371,
+        "z": 0,
+        "w": 0.9378889188186914
+      },
+      "source": "veml_spawn",
+      "name": "VEMLEntry"
+    },
+    "worldBackground": {
+      "kind": "environment",
+      "source": "lookdev",
+      "name": "forest.exr",
+      "exposureRatio": 1.4782574339583605
+    },
+    "viewportHiddenObjects": [
+      "CTRL_Hole.001",
+      "CTRL_Hole.004",
+      "CTRL_Hole.005",
+      "Camera",
+      "Camera.003",
+      "Light",
+      "turtle"
+    ],
+    "defaultMaterialAssigned": [
+      "BézierCurve.001",
+      "BézierCurve.003",
+      "BézierCurve.004",
+      "BézierCurve.005",
+      "Cube.006",
+      "Cube.014",
+      "Cube.018",
+      "Cube.041",
+      "Cube.079",
+      "Cube.080",
+      "Cube.081",
+      "Cube.082",
+      "Cube.083",
+      "Cube.084",
+      "Cube.136",
+      "Cube.137",
+      "Cube.138",
+      "Cube.139",
+      "Cube.141",
+      "Cylinder.052",
+      "Cylinder.055",
+      "Cylinder.058",
+      "Cylinder.066",
+      "Handle_Back",
+      "Handle_Back.001",
+      "Handle_Back.002",
+      "Handle_Front.002",
+      "Sphere",
+      "Cylinder.061",
+      "Plane"
+    ]
+  }
+}

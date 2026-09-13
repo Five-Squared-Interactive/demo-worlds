@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<veml xmlns="http://www.fivesqd.com/schemas/veml/4.0" version="4.0">
+  <metadata>
+    <title>Living Room</title>
+    <profile>lighting</profile>
+    <profile>environment</profile>
+  </metadata>
+  <environment>
+    <environment-map src="assets/sky.cbc1d3c0ef.png" intensity="3" diffuse="1.5" specular="0.15" glazing-boost="6.7" glazing-f0="0.6" punctual-lights="exclude"/>
+    <background color="#404040ff"/>
+    <entry-point id="default">
+      <position x="3" y="0.1" z="5"/>
+      <rotation x="0" y="0.346936" z="0" w="0.937889"/>
+    </entry-point>
+    <asset tag="model" src="assets/model.3308f08167.glb">
+      <transform>
+        <position x="0" y="0" z="0"/>
+        <rotation x="0" y="0" z="0" w="1"/>
+        <scale x="1" y="1" z="1"/>
+      </transform>
+    </asset>
+  </environment>
+</veml>
